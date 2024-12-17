@@ -1,0 +1,31 @@
+﻿Сборка начата 12.12.2024 19:12:22.
+Уровень детализации журнала: Normal.     1>Проект "D:\KAA-2024\LIB\LIB.vcxproj" в узле 3 (целевые объекты Rebuild).
+     1>_PrepareForClean:
+         Файл "x64\Debug\LIB.tlog\LIB.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Создание "x64\Debug\LIB.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\LIB.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.38.32919\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"D:\KAA-2024\x64\Debug\LIB.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Lib.cpp
+         Lib.cpp
+     1>D:\KAA-2024\LIB\Lib.cpp(11,13): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+     1>D:\KAA-2024\LIB\Lib.cpp(16,16): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+       Lib:
+         C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.38.32919\bin\HostX64\x64\Lib.exe /OUT:"D:\KAA-2024\x64\Debug\LIB.lib" /NOLOGO /MACHINE:X64 x64\Debug\Lib.obj
+         LIB.vcxproj -> D:\KAA-2024\x64\Debug\LIB.lib
+       FinalizeBuildStatus:
+         Файл "x64\Debug\LIB.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\LIB.tlog\LIB.lastbuildstate".
+     1>Сборка проекта "D:\KAA-2024\LIB\LIB.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+       "D:\KAA-2024\LIB\LIB.vcxproj" (целевой объект Rebuild ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\KAA-2024\LIB\Lib.cpp(11,13): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+         D:\KAA-2024\LIB\Lib.cpp(16,16): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:01.45
