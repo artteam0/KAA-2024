@@ -1,0 +1,96 @@
+function integer funcf [integer a, integer b]
+{
+	ann integer result = 0;
+	result = (a + b)* 2 / 2;
+	result = result * 2;
+	give [result];
+}
+
+function integer funcs []
+{	
+	ann integer noparm = 3;
+	print[noparm]; 
+	give[noparm];
+}
+
+procedure cyclen [integer n]
+{
+	ann integer i = 0;
+	print ["Counting to length: "];
+	print [n]; stop;
+
+	cycle [i < n]
+	{
+		i = i + 1;
+		print [i]; 
+		print [" "];
+	}
+}
+
+main
+{
+
+	ann integer testfir = funcf[1, 5];
+	print [testfir];
+	ann integer testsec = funcs[];
+	print [testsec];
+
+	ann line start = combine ["KPO Course Project ", "KAA2024 "];
+	print [start]; 
+
+	ann integer binary = 1b10;
+	print [binary];
+
+	ann integer oct = 0b10;
+	print [oct];
+
+	ann integer diff = binary - oct;
+	print ["binary - oct = "];
+	print [diff];
+
+	ann bool boolean = true;
+	print ["Bool: "];
+	print [boolean];
+
+	ann symbol char = "A";
+	print ["Symbol: "];
+	print [char];
+
+	ann integer exp = 2 + exponent [2, 4];
+	print ["exp[2, 4] =  "]; 
+	print [exp];
+
+	if[exp ~ 64]
+	{
+		print["Pow 2, 4 equal 16"]; stop;
+	}
+	otherwise
+	{
+		print["Pow 2, 4 not equal 16"]; stop;
+	}
+
+	ann integer length = measure ["Artsiom"];
+	print ["Length: "];
+	print [length];
+
+	ann integer randd = randomize [1, 52];
+	print ["Random: "];
+	print [randd];
+	
+	ann integer art = 256*160;
+	print ["Lexcomp: "];
+	print [art];
+ 
+	ann integer z = 7;
+	cyclen[z]; 
+	
+	if[z $ 10]
+	{
+		print ["If <= 7"]; stop;
+	}
+	otherwise
+	{
+		print ["If > 7"]; stop;
+	}
+	
+}
