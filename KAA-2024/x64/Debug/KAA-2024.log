@@ -1,0 +1,79 @@
+﻿Сборка начата 12.12.2024 19:12:23.
+Уровень детализации журнала: Normal.     1>Проект "D:\KAA-2024\KAA-2024\KAA-2024.vcxproj" в узле 4 (целевые объекты Rebuild).
+     1>_PrepareForClean:
+         Файл "x64\Debug\KAA-2024.tlog\KAA-2024.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Обращение к "x64\Debug\KAA-2024.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.38.32919\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Error.cpp FST.cpp Generation.cpp Greibach.cpp In.cpp IT.cpp "KAA-2024.cpp" LexAnalysis.cpp Log.cpp LT.cpp MFST.cpp Parm.cpp Polish.cpp SemAnalysis.cpp
+         Error.cpp
+         FST.cpp
+     1>D:\KAA-2024\KAA-2024\FST.cpp(61,17): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+         Generation.cpp
+     1>D:\KAA-2024\KAA-2024\Generation.cpp(523,31): warning C4312: приведение типов: преобразование из "int" в "char *" большего размера
+         Greibach.cpp
+         In.cpp
+         IT.cpp
+         KAA-2024.cpp
+         LexAnalysis.cpp
+     1>D:\KAA-2024\KAA-2024\LexAnalysis.cpp(21,35): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+     1>D:\KAA-2024\KAA-2024\LexAnalysis.cpp(706,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>D:\KAA-2024\KAA-2024\LexAnalysis.cpp(748,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>D:\KAA-2024\KAA-2024\LexAnalysis.cpp(924,23): warning C4267: +=: преобразование из "size_t" в "int"; возможна потеря данных
+         Log.cpp
+         LT.cpp
+         MFST.cpp
+     1>D:\KAA-2024\KAA-2024\MFST.cpp(80,7): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE4"
+     1>D:\KAA-2024\KAA-2024\MFST.cpp(95,11): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE4"
+     1>D:\KAA-2024\KAA-2024\MFST.cpp(114,3): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE6"
+     1>D:\KAA-2024\KAA-2024\MFST.cpp(130,4): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE5"
+     1>D:\KAA-2024\KAA-2024\MFST.cpp(168,4): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE4"
+     1>D:\KAA-2024\KAA-2024\MFST.cpp(252,66): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+         Parm.cpp
+         Polish.cpp
+         SemAnalysis.cpp
+         Создание кода...
+     1>D:\KAA-2024\KAA-2024\Polish.cpp(165): warning C4715: Poliz::Poliz: значение возвращается не при всех путях выполнения
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.38.32919\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\KAA-2024\x64\Debug\KAA-2024.exe" /INCREMENTAL /ILK:"x64\Debug\KAA-2024.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\KAA-2024\x64\Debug\KAA-2024.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\KAA-2024\x64\Debug\KAA-2024.lib" /MACHINE:X64 x64\Debug\Error.obj
+         x64\Debug\FST.obj
+         x64\Debug\Generation.obj
+         x64\Debug\Greibach.obj
+         x64\Debug\In.obj
+         x64\Debug\IT.obj
+         "x64\Debug\KAA-2024.obj"
+         x64\Debug\LexAnalysis.obj
+         x64\Debug\Log.obj
+         x64\Debug\LT.obj
+         x64\Debug\MFST.obj
+         x64\Debug\Parm.obj
+         x64\Debug\Polish.obj
+         x64\Debug\SemAnalysis.obj
+         KAA-2024.vcxproj -> D:\KAA-2024\x64\Debug\KAA-2024.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\KAA-2024.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\KAA-2024.tlog\KAA-2024.lastbuildstate".
+     1>Сборка проекта "D:\KAA-2024\KAA-2024\KAA-2024.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+       "D:\KAA-2024\KAA-2024\KAA-2024.vcxproj" (целевой объект Rebuild ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\KAA-2024\KAA-2024\FST.cpp(61,17): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+         D:\KAA-2024\KAA-2024\Generation.cpp(523,31): warning C4312: приведение типов: преобразование из "int" в "char *" большего размера
+         D:\KAA-2024\KAA-2024\LexAnalysis.cpp(21,35): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+         D:\KAA-2024\KAA-2024\LexAnalysis.cpp(706,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+         D:\KAA-2024\KAA-2024\LexAnalysis.cpp(748,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+         D:\KAA-2024\KAA-2024\LexAnalysis.cpp(924,23): warning C4267: +=: преобразование из "size_t" в "int"; возможна потеря данных
+         D:\KAA-2024\KAA-2024\MFST.cpp(80,7): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE4"
+         D:\KAA-2024\KAA-2024\MFST.cpp(95,11): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE4"
+         D:\KAA-2024\KAA-2024\MFST.cpp(114,3): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE6"
+         D:\KAA-2024\KAA-2024\MFST.cpp(130,4): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE5"
+         D:\KAA-2024\KAA-2024\MFST.cpp(168,4): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "MFST_TRACE4"
+         D:\KAA-2024\KAA-2024\MFST.cpp(252,66): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+         D:\KAA-2024\KAA-2024\Polish.cpp(165): warning C4715: Poliz::Poliz: значение возвращается не при всех путях выполнения
+
+    Предупреждений: 13
+    Ошибок: 0
+
+Прошло времени 00:00:16.21
